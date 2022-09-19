@@ -14,7 +14,7 @@ public class UserServiceImpl implements UserService {
     public UserServiceImpl(UserRepository userRepository) {
         this.userRepository = userRepository;
 
-        // стартовая таблица лиу
+        // стартовая таблица лиц
         userRepository.save(new User("Пётр", "Первый", 44));
         userRepository.save(new User("Николай", "Второй", 350));
         userRepository.save(new User("Alexandr", "Tretiy", 41));

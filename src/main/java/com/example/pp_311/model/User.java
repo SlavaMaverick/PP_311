@@ -5,6 +5,9 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+// @Data – аннотация, сочетающая возможности @ToString, @EqualsAndHashCode, @Getter, @Setter и @RequiredArgsConstructor.
+// @NoArgsConstructor - Lombok автоматически генерирует непараметризованный конструктор
+
 @Data
 @NoArgsConstructor
 @Entity
